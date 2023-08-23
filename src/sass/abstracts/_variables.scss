@@ -41,4 +41,10 @@
   --leading-270: 1.6875rem; // 27px
   --leading-300: 1.875rem; // 30px
   --leading-320: 2rem; // 32px
+
+  // Copy
+  --copy-font: var(--fw-semibold) var(--fs-400) var(--ff-barlow);
+  --copy-tracking: -0.13px;
+  --copy-tracking: var(--leading-300);
+  --copy-color: hsl(var(--color-neutral-500));
 }
