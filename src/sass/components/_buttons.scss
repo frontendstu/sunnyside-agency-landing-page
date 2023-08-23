@@ -21,4 +21,14 @@
       background-color: var(--btn-menu-mobile-bg-active);
     }
   }
+
+  &[data-btn-style='desktop'] {
+    color: var(--btn-menu-desktop-color);
+    background-color: var(--btn-menu-desktop-bg);
+
+    @include abstract.hover-focus-within {
+      color: var(--btn-menu-desktop-color-active);
+      background-color: var(--btn-menu-desktop-bg-active);
+    }
+  }
 }
