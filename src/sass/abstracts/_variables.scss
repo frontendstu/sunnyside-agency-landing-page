@@ -55,7 +55,7 @@
   // ----- LINKS
   --link-decoration: none;
   --link-decoration-active: none;
-  --link-decoration-color: hsl(var(--color-neutral-900));
-  --link-decoration-color-active: var(--link-decoration-color);
-  --link-decoration-transition: 200ms ease-in-out all;
+  --link-color: hsl(var(--color-neutral-900));
+  --link-color-active: var(--link-color);
+  --link-transition: 200ms ease-in-out all;
 }
