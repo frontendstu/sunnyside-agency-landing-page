@@ -69,4 +69,8 @@
   --btn-menu-tracking: -0.11px;
   --btn-menu-radius: 99vw;
   --btn-menu-padding: 0.5rem 2rem;
+
+  // Mobile Menu Button
+  --btn-menu-mobile-bg: hsla(var(--color-theme-yellow), 1);
+  --btn-menu-mobile-bg-active: hsla(var(--color-theme-yellow), 0.5);
 }
