@@ -58,4 +58,10 @@
   --link-color: hsl(var(--color-neutral-900));
   --link-color-active: var(--link-color);
   --link-transition: 200ms ease-in-out all;
+
+  // ----- COMPONENTS
+
+  // Buttons
+  --btn-ff: var(--ff-fraunces);
+  --btn-fs: var(--fs-200);
 }
