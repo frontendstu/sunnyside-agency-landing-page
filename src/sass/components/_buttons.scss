@@ -1,1 +1,10 @@
 @use '../abstracts' as abstract;
+
+.btn {
+  @include abstract.flex;
+
+  text-transform: uppercase;
+  font-size: var(--btn-fs);
+  font-family: var(--btn-ff);
+  width: fit-content;
+}
