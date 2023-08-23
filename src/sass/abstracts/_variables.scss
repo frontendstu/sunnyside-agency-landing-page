@@ -47,4 +47,8 @@
   --copy-tracking: -0.13px;
   --copy-tracking: var(--leading-300);
   --copy-color: hsl(var(--color-neutral-500));
+
+  // Headings
+  --heading-fw: var(--fw-black);
+  --heading-ff: var(--ff-fraunces);
 }
