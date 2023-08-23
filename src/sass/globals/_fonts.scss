@@ -1,1 +1,8 @@
 @use '../abstracts' as abstract;
+
+// Barlow
+@include abstract.font-face(
+  $font-family: 'Barlow',
+  $font-path: '../assets/fonts/Barlow/Barlow-SemiBold.ttf',
+  $font-weight: 600
+);
