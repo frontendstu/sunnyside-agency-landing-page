@@ -13,4 +13,12 @@
   letter-spacing: var(--btn-menu-tracking);
   border-radius: var(--btn-menu-radius);
   padding: var(--btn-menu-padding);
+
+  &[data-btn-style='mobile'] {
+    background-color: var(--btn-menu-mobile-bg);
+
+    @include abstract.hover-focus-within {
+      background-color: var(--btn-menu-mobile-bg-active);
+    }
+  }
 }
