@@ -6,3 +6,11 @@
   $font-path: '../assets/fonts/Barlow/Barlow-SemiBold.ttf',
   $font-weight: 600
 );
+
+// Fraunces
+@include abstract.font-face(
+  $font-family: 'Fraunces',
+  $font-path:
+    '../assets/fonts/Fraunces/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf',
+  $font-weight: 700 900
+);
