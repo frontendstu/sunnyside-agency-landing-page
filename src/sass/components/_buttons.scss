@@ -8,3 +8,9 @@
   font-family: var(--btn-ff);
   width: fit-content;
 }
+
+.btn-menu {
+  letter-spacing: var(--btn-menu-tracking);
+  border-radius: var(--btn-menu-radius);
+  padding: var(--btn-menu-padding);
+}
