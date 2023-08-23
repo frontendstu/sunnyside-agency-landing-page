@@ -17,3 +17,14 @@ a {
     color: var(--link-color-active);
   }
 }
+
+/** 
+ * NOTE: Global heading styles only include the heading font family and font 
+ * weight. Font sizes, leading, tracking and colours will need to be declared 
+ * where they are required and not globally.
+ */
+
+.heading {
+  font-weight: var(--heading-fw);
+  font-family: var(--heading-ff);
+}
