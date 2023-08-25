@@ -1,5 +1,5 @@
 const navToggle = document.querySelector('.header__menu-toggle');
-const headerNav = document.querySelector('.header__menu');
+const headerNav = document.querySelector('#header-menu');
 
 navToggle.addEventListener('click', () => {
   headerNav.hasAttribute('data-visible')
