@@ -64,6 +64,7 @@
   // Buttons
   --btn-ff: var(--ff-fraunces);
   --btn-fs: var(--fs-200);
+  --btn-transition: var(--link-transition);
 
   // Menu Button
   --btn-menu-tracking: -0.11px;
@@ -88,4 +89,7 @@
 
   --btn-link-style-soft-red: hsla(var(--color-theme-soft-red), 0.25);
   --btn-link-style-soft-red-active: hsla(var(--color-theme-soft-red), 1);
+
+  --btn-link-style-yellow: hsla(var(--color-theme-yellow), 0.25);
+  --btn-link-style-yellow-active: hsla(var(--color-theme-yellow), 1);
 }
