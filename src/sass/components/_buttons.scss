@@ -32,3 +32,18 @@
     }
   }
 }
+
+.btn-link {
+  padding-inline: var(--btn-link-padding-inline);
+  position: relative;
+
+  &::after {
+    content: '';
+    border-radius: var(--btn-link-radius);
+    height: var(--btn-link-height);
+    z-index: -999;
+    position: absolute;
+    transform: var(--btn-link-transform);
+    width: 100%;
+  }
+}
