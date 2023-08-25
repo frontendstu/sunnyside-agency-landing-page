@@ -46,4 +46,16 @@
     transform: var(--btn-link-transform);
     width: 100%;
   }
+
+  &[data-btn-style='soft-red'] {
+    &::after {
+      background-color: var(--btn-link-style-soft-red);
+    }
+
+    @include abstract.hover-focus-within {
+      &::after {
+        background-color: var(--btn-link-style-soft-red-active);
+      }
+    }
+  }
 }
