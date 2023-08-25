@@ -85,4 +85,7 @@
   --btn-link-padding-inline: 0.5rem;
   --btn-link-transform: translateY(0.35rem);
   --btn-link-height: 0.625rem;
+
+  --btn-link-style-soft-red: hsla(var(--color-theme-soft-red), 0.25);
+  --btn-link-style-soft-red-active: hsla(var(--color-theme-soft-red), 1);
 }
