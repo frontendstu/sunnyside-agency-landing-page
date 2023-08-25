@@ -95,4 +95,17 @@
 
   --btn-link-style-yellow: hsla(var(--color-theme-yellow), 0.25);
   --btn-link-style-yellow-active: hsla(var(--color-theme-yellow), 1);
+
+  // ----- LAYOUT
+
+  // Wrapper
+  --wrapper-max-width: 20.4375rem; // 327px
+
+  @media (min-width: 48em) {
+    --wrapper-max-width: 35.8125rem; // 573px
+  }
+
+  @media (min-width: 90em) {
+    --wrapper-max-width: 69.375rem; // 1110px
+  }
 }
