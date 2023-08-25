@@ -58,4 +58,16 @@
       }
     }
   }
+
+  &[data-btn-style='yellow'] {
+    &::after {
+      background-color: var(--btn-link-style-yellow);
+    }
+
+    @include abstract.hover-focus-within {
+      &::after {
+        background-color: var(--btn-link-style-yellow-active);
+      }
+    }
+  }
 }
