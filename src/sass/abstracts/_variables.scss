@@ -79,4 +79,10 @@
   --btn-menu-desktop-color-active: hsl(var(--color-neutral-100));
   --btn-menu-desktop-bg: hsla(var(--color-neutral-100));
   --btn-menu-desktop-bg-active: hsla(var(--color-neutral-100), 0.25);
+
+  // Link Button
+  --btn-link-radius: 99vw;
+  --btn-link-padding-inline: 0.5rem;
+  --btn-link-transform: translateY(0.35rem);
+  --btn-link-height: 0.625rem;
 }
