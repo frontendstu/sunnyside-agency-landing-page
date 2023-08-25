@@ -71,18 +71,17 @@
 
   // Menu Button
   --btn-menu-tracking: -0.11px;
+  --btn-menu-color: hsl(var(--color-neutral-900));
+  --btn-menu-bg: hsla(var(--color-theme-yellow), 1);
+  --btn-menu-bg-active: hsla(var(--color-theme-yellow), 0.5);
   --btn-menu-radius: 99vw;
   --btn-menu-padding: 0.5rem 2rem;
 
-  // Mobile Menu Button
-  --btn-menu-mobile-bg: hsla(var(--color-theme-yellow), 1);
-  --btn-menu-mobile-bg-active: hsla(var(--color-theme-yellow), 0.5);
-
-  // Desktop Menu Button
-  --btn-menu-desktop-color: hsl(var(--color-neutral-900));
-  --btn-menu-desktop-color-active: hsl(var(--color-neutral-100));
-  --btn-menu-desktop-bg: hsla(var(--color-neutral-100));
-  --btn-menu-desktop-bg-active: hsla(var(--color-neutral-100), 0.25);
+  @media (min-width: 48em) {
+    --btn-menu-color-active: hsl(var(--color-neutral-100));
+    --btn-menu-bg: hsla(var(--color-neutral-100), 1);
+    --btn-menu-bg-active: hsla(var(--color-neutral-100), 0.25);
+  }
 
   // Link Button
   --btn-link-radius: 99vw;
