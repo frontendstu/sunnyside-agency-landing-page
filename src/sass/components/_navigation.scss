@@ -1,1 +1,17 @@
 @use '../abstracts' as abstract;
+
+.header {
+  background-color: lightblue;
+
+  &__menu {
+    ul {
+      display: none;
+
+      &[data-visible] {
+        background-color: lightgrey;
+
+        display: block;
+      }
+    }
+  }
+}
