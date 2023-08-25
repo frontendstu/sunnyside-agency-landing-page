@@ -7,6 +7,10 @@
   font-size: var(--btn-fs);
   font-family: var(--btn-ff);
   width: fit-content;
+
+  &::after {
+    transition: var(--btn-transition);
+  }
 }
 
 .btn-menu {
