@@ -1,7 +1,7 @@
 @use '../abstracts' as abstract;
 
 .header-primary {
-  background-color: lightgray;
+  background-color: var(--header-bg);
   padding-top: var(--header-padding-top);
 
   &__wrapper {
@@ -27,16 +27,45 @@
       width: 100%;
 
       &[data-visible] {
-        display: block;
+        @include abstract.flex;
+
         top: var(--header-menu-top-pos);
-        background-color: darkgray;
+        background-color: var(--header-menu-bg);
+
+        &::before {
+          content: '';
+          width: 0;
+          height: 0;
+          position: absolute;
+          right: 0;
+          top: -1.5rem;
+          border-top: 30px solid transparent;
+          border-bottom: 30px solid transparent;
+          border-right: 30px solid hsl(var(--color-neutral-150));
+          z-index: -1;
+        }
       }
     }
+
     @media (min-width: 90em) {
       margin-inline: unset;
     }
 
     &-items {
+      @media (max-width: 89.99em) {
+        font-size: var(--fs-500);
+        padding-bottom: 2rem;
+
+        li {
+          text-align: center;
+          margin-top: 2rem;
+        }
+
+        a {
+          color: hsl(var(--color-neutral-300));
+        }
+      }
+
       @media (min-width: 90em) {
         display: inline-flex;
         align-items: center;
