@@ -15,7 +15,7 @@
 
 .btn-menu {
   letter-spacing: var(--btn-menu-tracking);
-  color: var(--btn-menu-color);
+  color: var(--btn-menu-color) !important;
   background-color: var(--btn-menu-bg);
   border-radius: var(--btn-menu-radius);
   padding: var(--btn-menu-padding);
