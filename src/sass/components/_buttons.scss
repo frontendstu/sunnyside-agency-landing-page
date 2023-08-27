@@ -4,7 +4,7 @@
   @include abstract.flex;
 
   text-transform: uppercase;
-  font-size: var(--btn-fs);
+  font-size: var(--btn-fs) !important;
   font-family: var(--btn-ff);
   width: fit-content;
 
