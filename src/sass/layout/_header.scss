@@ -1,9 +1,47 @@
 @use '../abstracts' as abstract;
 
-.header {
+.header-primary {
   background-color: lightgray;
+  padding-top: 2rem;
 
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  &__wrapper {
+    @include abstract.flex;
+    justify-content: space-between;
+  }
+
+  &__toggle {
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    display: none;
+
+    @media (max-width: 89.98em) {
+      display: block;
+    }
+  }
+
+  &__menu {
+    @media (max-width: 89.98em) {
+      display: none;
+      position: absolute;
+      width: 100%;
+
+      &[data-visible] {
+        display: block;
+        top: 5.125rem;
+        background-color: darkgray;
+      }
+    }
+    @media (min-width: 90em) {
+      margin-inline: unset;
+    }
+
+    &-items {
+      @media (min-width: 90em) {
+        display: inline-flex;
+        align-items: center;
+        column-gap: 2.9375rem;
+      }
+    }
+  }
 }
