@@ -77,7 +77,7 @@
   --btn-menu-radius: 99vw;
   --btn-menu-padding: 0.5rem 2rem;
 
-  @media (min-width: 48em) {
+  @media (min-width: 90em) {
     --btn-menu-color-active: hsl(var(--color-neutral-100));
     --btn-menu-bg: hsla(var(--color-neutral-100), 1);
     --btn-menu-bg-active: hsla(var(--color-neutral-100), 0.25);
