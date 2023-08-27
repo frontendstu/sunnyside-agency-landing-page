@@ -52,17 +52,17 @@
     }
 
     &-items {
+      a {
+        color: var(--header-menu-item-color);
+        font-size: var(--header-menu-item-fs);
+      }
+
       @media (max-width: 89.99em) {
-        font-size: var(--fs-500);
         padding-bottom: 2rem;
 
         li {
           text-align: center;
           margin-top: 2rem;
-        }
-
-        a {
-          color: hsl(var(--color-neutral-300));
         }
       }
 
