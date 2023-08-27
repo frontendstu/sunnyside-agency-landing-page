@@ -2,7 +2,7 @@
 
 .header-primary {
   background-color: lightgray;
-  padding-top: 2rem;
+  padding-top: var(--header-padding-top);
 
   &__wrapper {
     @include abstract.flex;
@@ -28,7 +28,7 @@
 
       &[data-visible] {
         display: block;
-        top: 5.125rem;
+        top: var(--header-menu-top-pos);
         background-color: darkgray;
       }
     }
@@ -40,7 +40,7 @@
       @media (min-width: 90em) {
         display: inline-flex;
         align-items: center;
-        column-gap: 2.9375rem;
+        column-gap: var(--header-menu-col-gap);
       }
     }
   }
