@@ -109,10 +109,12 @@
   }
 
   // Header
+  --header-bg: transparent;
   --header-padding-top: 2rem;
 
   @media (max-width: 89.98em) {
-    --header-menu-top-pos: 5.125rem;
+    --header-menu-top-pos: 6.45rem;
+    --header-menu-bg: hsl(var(--color-neutral-150));
   }
 
   @media (min-width: 90em) {
