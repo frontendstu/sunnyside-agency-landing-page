@@ -107,4 +107,15 @@
   @media (min-width: 90em) {
     --wrapper-max-width: 69.375rem; // 1110px
   }
+
+  // Header
+  --header-padding-top: 2rem;
+
+  @media (max-width: 89.98em) {
+    --header-menu-top-pos: 5.125rem;
+  }
+
+  @media (min-width: 90em) {
+    --header-menu-col-gap: 2.9375rem;
+  }
 }
