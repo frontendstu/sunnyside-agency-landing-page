@@ -14,16 +14,33 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header class="header">
-      <div>
-        <img src="assets/images/logo.svg" alt="" />
-        <span class="sr-only">Sunnyside</span>
-      </div>
-      <div>
-        <button type="button">
-          <img src="assets/images/icon-hamburger.svg" alt="" />
-          <span class="sr-only">Menu</span>
-        </button>
+    <header class="header-primary">
+      <div class="wrapper">
+        <div class="header-primary__wrapper">
+          <a href="#"><img src="assets/images/logo.svg" alt="Sunnyside" /></a>
+
+          <button
+            class="header-primary__toggle"
+            aria-controls="header-primary-nav"
+            aria-expanded="false"
+          >
+            <img
+              src="assets/images/icon-hamburger.svg"
+              alt=""
+              aria-hidden="true"
+            />
+            <span class="sr-only">Menu</span>
+          </button>
+
+          <nav class="header-primary__menu wrapper" id="header-primary-nav">
+            <ul role="list" class="header-primary__menu-items">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a class="btn btn-menu" href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
 
