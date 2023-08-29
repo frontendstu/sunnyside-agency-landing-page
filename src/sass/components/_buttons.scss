@@ -21,7 +21,7 @@
   padding: var(--btn-menu-padding);
 
   @include abstract.hover-focus-within {
-    color: var(--btn-menu-color-active);
+    color: var(--btn-menu-color-active) !important;
     background-color: var(--btn-menu-bg-active);
   }
 }
