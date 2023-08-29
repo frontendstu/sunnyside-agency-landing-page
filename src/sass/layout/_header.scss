@@ -1,7 +1,10 @@
 @use '../abstracts' as abstract;
 
 .header-primary {
-  background-color: var(--header-bg);
+  background-image: var(--header-bg-img);
+  background-color: var(--header-bg); // Fallback colour
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-top: var(--header-padding-top);
 
   &__wrapper {
