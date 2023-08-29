@@ -76,4 +76,22 @@
       }
     }
   }
+
+  &__hero {
+    text-align: center;
+    margin-top: var(--header-hero-margin-top);
+    height: var(--header-hero-height);
+
+    .heading {
+      font-size: var(--header-hero-heading-fs);
+      line-height: 1;
+      letter-spacing: var(--header-hero-heading-tracking);
+      color: var(--header-hero-color);
+    }
+
+    img {
+      margin-top: var(--header-hero-img-margin-top);
+      margin-inline: auto;
+    }
+  }
 }
