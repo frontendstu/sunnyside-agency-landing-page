@@ -129,4 +129,20 @@
     --header-menu-item-fs: var(--fs-200);
     --header-menu-item-color: hsl(var(--color-neutral-100));
   }
+
+  // Header Hero
+  --header-hero-margin-top: 5.5rem; // 88px
+  --header-hero-height: 23.4375rem; // 538px
+  --header-hero-img-margin-top: 3.25rem; // 52px
+
+  --header-hero-heading-fs: var(--fs-800);
+  --header-hero-heading-tracking: 0.390625rem;
+  --header-hero-color: hsl(var(--color-neutral-100));
+
+  @media (min-width: 48em) {
+    --header-hero-margin-top: 7.25rem; // 116px
+    --header-hero-height: 50rem; // 800px
+    --header-hero-heading-fs: var(--fs-900);
+    --header-hero-img-margin-top: 6rem; // 96px
+  }
 }
