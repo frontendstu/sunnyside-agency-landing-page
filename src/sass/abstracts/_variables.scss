@@ -109,7 +109,13 @@
   }
 
   // Header
+  --header-bg-img: url('../assets/images/mobile/image-header.jpg');
+  --header-bg: hsl(197, 76, 56);
   --header-padding-top: 2rem;
+
+  @media (min-width: 90em) {
+    --header-bg-img: url('../assets/images/desktop/image-header.jpg');
+  }
 
   @media (max-width: 89.98em) {
     --header-menu-top-pos: 6.45rem;
