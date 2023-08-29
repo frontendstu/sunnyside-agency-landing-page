@@ -112,8 +112,10 @@
   --header-bg-img: url('../assets/images/mobile/image-header.jpg');
   --header-bg: hsl(197, 76, 56);
   --header-padding-top: 2rem;
+  --header-branding-width: 7.75rem; // 124px
 
-  @media (min-width: 90em) {
+  @media (min-width: 48em) {
+    --header-branding-width: 10.625rem; // 170px
     --header-bg-img: url('../assets/images/desktop/image-header.jpg');
   }
 
