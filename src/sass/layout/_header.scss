@@ -5,6 +5,7 @@
   background-color: var(--header-bg); // Fallback colour
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   padding-top: var(--header-padding-top);
 
   &__wrapper {
