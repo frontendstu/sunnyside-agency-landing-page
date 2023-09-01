@@ -147,4 +147,22 @@
     --header-hero-heading-fs: var(--fs-900);
     --header-hero-img-margin-top: 6rem; // 96px
   }
+
+  // Features
+  --features-content-padding: 4rem 1.5rem;
+  --features-content-row-gap: 1.5rem;
+
+  --features-content-heading-fs: var(--fs-700);
+  --features-content-heading-leading: 1.25;
+  --features-content-heading-color: hsl(var(--color-neutral-900));
+
+  @media (min-width: 48em) {
+    --features-content-padding: 0 1rem;
+    --features-content-max-width: 27.8125rem;
+    --features-content-row-gap: 2rem;
+  }
+
+  @media (min-width: 90em) {
+    --features-content-heading-fs: var(--fs-800);
+  }
 }
