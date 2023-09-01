@@ -165,4 +165,32 @@
   @media (min-width: 90em) {
     --features-content-heading-fs: var(--fs-800);
   }
+
+  // Services
+  --services-item-height: 40rem;
+  --services-item-padding: 0 1.5rem 3rem;
+
+  --services-content-fs: var(--fs-300);
+  --services-content-gap: 1.625rem;
+  --services-content-max-width: 20.4375rem;
+  --services-content-heading-fs: var(--fs-600);
+
+  @media (min-width: 48em) {
+    --services-content-max-width: 21.1875rem;
+  }
+
+  --services-graphics-color: hsl(166, 40%, 24%);
+  --services-graphics-bg-url: url('../assets/images/mobile/image-graphic-design.jpg');
+
+  @media (min-width: 48em) {
+    --services-graphics-bg-url: url('../assets/images/desktop/image-graphic-design.jpg');
+  }
+
+  --services-photography-color: hsl(198, 62%, 26%);
+  --services-photography-heading-color: hsl(197, 86%, 12%);
+  --services-photography-bg-url: url('../assets/images/mobile/image-photography.jpg');
+
+  @media (min-width: 48em) {
+    --services-photography-bg-url: url('../assets/images/desktop/image-photography.jpg');
+  }
 }
