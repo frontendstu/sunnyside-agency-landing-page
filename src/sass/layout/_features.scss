@@ -1,1 +1,50 @@
 @use '../abstracts' as abstract;
+
+.features {
+  &__row {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+
+    @media (min-width: 48em) {
+      grid-template-columns: repeat(2, minmax(0, 2fr));
+    }
+  }
+
+  &__img {
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__content {
+    text-align: center;
+    padding: var(--features-content-padding);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: var(--features-content-row-gap);
+
+    .heading {
+      text-transform: none;
+      font-size: var(--features-content-heading-fs);
+      line-height: var(--features-content-heading-leading);
+      color: var(--features-content-heading-color);
+    }
+
+    @media (min-width: 48em) {
+      text-align: left;
+      margin-inline: auto;
+      max-width: var(--features-content-max-width);
+      align-items: flex-start;
+    }
+  }
+}
+
+@media (max-width: 47.98em) {
+  .features__row:first-child > .features__content {
+    order: 1;
+  }
+}
