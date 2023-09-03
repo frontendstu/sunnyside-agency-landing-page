@@ -5,6 +5,16 @@
   background-color: var(--footer-bg);
   padding-block: var(--footer-padding-block);
 
+  a {
+    color: var(--footer-color);
+    fill: var(--footer-color);
+
+    @include abstract.hover-focus {
+      color: var(--footer-color-active);
+      fill: var(--footer-color-active);
+    }
+  }
+
   &__container {
     margin-inline: auto;
     max-width: var(--footer-container-max-width);
@@ -25,16 +35,6 @@
       align-items: center;
       justify-content: center;
       column-gap: 2rem;
-
-      a {
-        color: var(--footer-color);
-        fill: var(--footer-color);
-
-        @include abstract.hover-focus {
-          color: var(--footer-color-active);
-          fill: var(--footer-color-active);
-        }
-      }
     }
   }
 
