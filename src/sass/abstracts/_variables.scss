@@ -257,4 +257,8 @@
   @media (min-width: 90em) {
     --footer-padding-block: 4.5rem;
   }
+
+  // Attribution
+  --attribution-fs: var(--fs-200);
+  --attribution-margin-top: 2rem; // 32px
 }
