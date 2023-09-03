@@ -193,4 +193,37 @@
   @media (min-width: 48em) {
     --services-photography-bg-url: url('../assets/images/desktop/image-photography.jpg');
   }
+
+  // Testimonials
+  --testimonials-color: hsl(var(--color-neutral-700));
+  --testimonials-padding-block: 4rem;
+  --testimonials-heading-fs: var(--fs-300);
+  --testimonials-heading-tracking: 5px;
+  --testimonials-img-radius: 99vw;
+  --testimonials-img-size: 4.5rem;
+
+  --testimonials-row-margin-top: 4rem;
+  --testimonials-row-gap: 4rem;
+  --testimonials-row-item-gap: 2rem;
+
+  --testimonials-cite-fs: var(--fs-400);
+  --testimonials-cite-ff: var(--heading-ff);
+  --testimonials-cite-tracking: -0.13px;
+  --testimonials-cite-color: hsl(var(--color-neutral-900));
+
+  --testimonials-position-fs: var(--fs-100);
+  --testimonials-position-ff: var(--ff-barlow);
+  --testimonials-position-color: hsl(var(--color-neutral-300));
+
+  @media (min-width: 64em) {
+    --testimonials-heading-tracking: 5px;
+    --testimonials-heading-fs: var(--fs-500);
+  }
+
+  @media (min-width: 90em) {
+    --testimonials-padding-block: 10rem;
+    --testimonials-row-margin-top: 5rem;
+    --testimonials-row-gap: 1.875rem;
+    --testimonials-row-item-gap: 3.625rem;
+  }
 }
