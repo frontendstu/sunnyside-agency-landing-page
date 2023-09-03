@@ -243,4 +243,18 @@
   --testimonials-author-cite-fs: var(--fs-100);
   --testimonials-author-cite-ff: var(--ff-barlow);
   --testimonials-author-cite-color: hsl(var(--color-neutral-300));
+
+  // Footer
+  --footer-color: hsl(167, 34%, 41%);
+  --footer-color-active: hsl(var(--color-neutral-100));
+  --footer-bg: hsl(168, 44%, 70%);
+  --footer-padding-block: 4rem 5rem;
+  --footer-container-max-width: 18.75rem;
+  --footer-branding-fill: hsl(168, 46%, 31%);
+  --footer-links-margin-top: 2.5rem; // 40px;
+  --footer-links-social-margin-top: 5.5rem; // 88px
+
+  @media (min-width: 90em) {
+    --footer-padding-block: 4.5rem;
+  }
 }
