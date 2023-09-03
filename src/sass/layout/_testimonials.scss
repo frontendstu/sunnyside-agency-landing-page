@@ -1,33 +1,41 @@
 @use '../abstracts' as abstract;
 
 .testimonials {
-  color: var(--testimonials-color);
+  text-align: center;
   padding-block: var(--testimonials-padding-block);
 
-  img {
-    border-radius: var(--testimonials-img-radius);
-    width: var(--testimonials-img-size);
-    height: var(--testimonials-img-size);
-  }
-
-  cite {
-    font-size: var(--testimonials-cite-fs);
-    font-family: var(--testimonials-cite-ff);
-    color: var(--testimonials-cite-color);
-    display: flex;
-    flex-direction: column;
-
-    span {
-      font-size: var(--testimonials-position-fs);
-      font-family: var(--testimonials-position-ff);
-      color: var(--testimonials-position-color);
-    }
-  }
-
   .heading {
-    text-align: center;
     font-size: var(--testimonials-heading-fs);
     letter-spacing: var(--testimonials-heading-tracking);
+  }
+
+  blockquote {
+    color: var(--testimonials-blockquote-color);
+    display: flex;
+    flex-direction: column;
+    gap: var(--testimonials-blockquote-gap);
+
+    img {
+      border-radius: var(--testimonials-img-radius);
+      margin-inline: auto;
+      width: var(--testimonials-img-size);
+      height: var(--testimonials-img-size);
+    }
+
+    footer {
+      font-size: var(--testimonials-author-fs);
+      font-family: var(--testimonials-author-ff);
+      letter-spacing: var(--testimonials-author-tracking);
+      color: var(--testimonials-author-color);
+      display: flex;
+      flex-direction: column;
+
+      cite {
+        font-size: var(--testimonials-author-cite-fs);
+        font-family: var(--testimonials-author-cite-ff);
+        color: var(--testimonials-author-cite-color);
+      }
+    }
   }
 
   &__row {
@@ -38,14 +46,6 @@
 
     @media (min-width: 90em) {
       grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-
-    &-item {
-      text-align: center;
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      gap: var(--testimonials-row-item-gap);
     }
   }
 }
