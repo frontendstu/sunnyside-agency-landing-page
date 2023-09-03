@@ -1,1 +1,51 @@
 @use '../abstracts' as abstract;
+
+.testimonials {
+  color: var(--testimonials-color);
+  padding-block: var(--testimonials-padding-block);
+
+  img {
+    border-radius: var(--testimonials-img-radius);
+    width: var(--testimonials-img-size);
+    height: var(--testimonials-img-size);
+  }
+
+  cite {
+    font-size: var(--testimonials-cite-fs);
+    font-family: var(--testimonials-cite-ff);
+    color: var(--testimonials-cite-color);
+    display: flex;
+    flex-direction: column;
+
+    span {
+      font-size: var(--testimonials-position-fs);
+      font-family: var(--testimonials-position-ff);
+      color: var(--testimonials-position-color);
+    }
+  }
+
+  .heading {
+    text-align: center;
+    font-size: var(--testimonials-heading-fs);
+    letter-spacing: var(--testimonials-heading-tracking);
+  }
+
+  &__row {
+    margin-top: var(--testimonials-row-margin-top);
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: var(--testimonials-row-gap);
+
+    @media (min-width: 90em) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    &-item {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: var(--testimonials-row-item-gap);
+    }
+  }
+}
