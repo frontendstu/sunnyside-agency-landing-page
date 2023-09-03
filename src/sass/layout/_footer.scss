@@ -1,1 +1,44 @@
 @use '../abstracts' as abstract;
+
+.footer {
+  color: var(--footer-color);
+  background-color: var(--footer-bg);
+  padding-block: var(--footer-padding-block);
+
+  &__container {
+    margin-inline: auto;
+    max-width: var(--footer-container-max-width);
+  }
+
+  &__branding {
+    @include abstract.flex;
+
+    fill: var(--footer-branding-fill);
+    margin-inline: auto;
+  }
+
+  &__links {
+    margin-top: var(--footer-links-margin-top);
+
+    &-items {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 2rem;
+
+      a {
+        color: var(--footer-color);
+        fill: var(--footer-color);
+
+        @include abstract.hover-focus {
+          color: var(--footer-color-active);
+          fill: var(--footer-color-active);
+        }
+      }
+    }
+  }
+
+  &__socials {
+    margin-top: var(--footer-links-social-margin-top);
+  }
+}
