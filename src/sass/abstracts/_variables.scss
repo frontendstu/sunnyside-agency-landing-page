@@ -195,35 +195,48 @@
   }
 
   // Testimonials
-  --testimonials-color: hsl(var(--color-neutral-700));
-  --testimonials-padding-block: 4rem;
-  --testimonials-heading-fs: var(--fs-300);
-  --testimonials-heading-tracking: 5px;
-  --testimonials-img-radius: 99vw;
-  --testimonials-img-size: 4.5rem;
-
-  --testimonials-row-margin-top: 4rem;
-  --testimonials-row-gap: 4rem;
-  --testimonials-row-item-gap: 2rem;
-
-  --testimonials-cite-fs: var(--fs-400);
-  --testimonials-cite-ff: var(--heading-ff);
-  --testimonials-cite-tracking: -0.13px;
-  --testimonials-cite-color: hsl(var(--color-neutral-900));
-
-  --testimonials-position-fs: var(--fs-100);
-  --testimonials-position-ff: var(--ff-barlow);
-  --testimonials-position-color: hsl(var(--color-neutral-300));
-
-  @media (min-width: 64em) {
-    --testimonials-heading-tracking: 5px;
-    --testimonials-heading-fs: var(--fs-500);
-  }
+  --testimonials-padding-block: 4rem; // 64px
 
   @media (min-width: 90em) {
-    --testimonials-padding-block: 10rem;
-    --testimonials-row-margin-top: 5rem;
-    --testimonials-row-gap: 1.875rem;
-    --testimonials-row-item-gap: 3.625rem;
+    --testimonials-padding-block: 10rem; // 160px
   }
+
+  // Testimonials Heading
+  --testimonials-heading-fs: var(--fs-300);
+  --testimonials-heading-tracking: 4px;
+
+  @media (min-width: 90em) {
+    --testimonials-heading-fs: var(--fs-400);
+    --testimonials-heading-tracking: 5px;
+  }
+
+  // Testimonials Row
+  --testimonials-row-margin-top: 4rem; // 64px
+  --testimonials-row-gap: 4rem; // 64px
+
+  @media (min-width: 90em) {
+    --testimonials-row-gap: 1.875rem; // 30px
+  }
+
+  // Testimonial Image
+  --testimonials-img-radius: 99vw;
+  --testimonials-img-size: 4.5rem; // 72px
+
+  // Testimonial Blockquote
+  --testimonials-blockquote-color: hsl(var(--color-neutral-700));
+  --testimonials-blockquote-gap: 2rem; // 32px
+
+  @media (min-width: 90em) {
+    --testimonials-blockquote-gap: 3.625rem; // 58px
+  }
+
+  // Testimonial Author
+  --testimonials-author-fs: var(--fs-400);
+  --testimonials-author-ff: var(--heading-ff);
+  --testimonials-author-tracking: -0.13px;
+  --testimonials-author-color: hsl(var(--color-neutral-900));
+
+  --testimonials-author-cite-fs: var(--fs-100);
+  --testimonials-author-cite-ff: var(--ff-barlow);
+  --testimonials-author-cite-color: hsl(var(--color-neutral-300));
 }
