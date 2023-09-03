@@ -104,6 +104,10 @@
     --wrapper-max-width: 35.8125rem; // 573px
   }
 
+  @media (min-width: 64em) {
+    --wrapper-max-width: 61.25rem; // 980px
+  }
+
   @media (min-width: 90em) {
     --wrapper-max-width: 69.375rem; // 1110px
   }
