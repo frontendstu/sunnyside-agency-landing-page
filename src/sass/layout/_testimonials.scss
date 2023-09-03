@@ -44,7 +44,7 @@
     grid-template-columns: repeat(1, minmax(0, 1fr));
     gap: var(--testimonials-row-gap);
 
-    @media (min-width: 90em) {
+    @media (min-width: 64em) {
       grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
