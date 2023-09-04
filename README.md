@@ -1,31 +1,56 @@
-# Sass Starter
+# Frontend Mentor - Sunnyside agency landing page solution
 
-A barebones starter template to get your app off the ground quickly. Featuring little to no mixins, no pre-defined variables or utility classes.
+This is a solution to the [Sunnyside agency landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Getting Started
+## Table of contents
 
-In order to use Sass Starter, you will need the following installed on your machine:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-- Node.js v18.16.1 (https://nodejs.org/en)
-- NPM v9.7.2 (https://www.npmjs.com/)
+## Overview
 
-## Clone Repository
+### The challenge
 
-```shell
-https://github.com/frontendstu/sass-starter
-```
+Users should be able to:
 
-## Installation
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
 
-1. Navigation to project directory
-2. Run the following command
+### Screenshot
 
-```shell
-npm install
-```
+![](./screenshot.png)
 
-3. Once the package is installed, run the following command
+### Links
 
-```shell
-npm run start
-```
+- [📦 Solution](https://github.com/frontendstu/sunnyside-agency-landing-page)
+- [🌏 Live Site](https://frontendstu.github.io/sunnyside-agency-landing-page/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+
+### What I learned
+
+The Sunnyside Agency Landing Page was a good step up that gave me a good challenge, especially with the header and using JavaScript to toggle the header menu along with the features section. The features section was quite tricky and required a of decision making. Should I use flexbox or should I use grid? I was able to achieve the layout using grid and changing the order on the 768px breakpoint.
+
+The rest of the layout was pretty straightforward.
+
+## Author
+
+- Website - [GitHub](https://github.com/frontendstu)
+- Frontend Mentor - [@frontendstu](https://www.frontendmentor.io/profile/frontendstu)
