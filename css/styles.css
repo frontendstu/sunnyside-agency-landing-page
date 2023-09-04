@@ -105,7 +105,7 @@
   --footer-branding-fill: hsl(168, 46%, 31%);
   --footer-links-margin-top: 2.5rem;
   --footer-links-social-margin-top: 5.5rem;
-  --attribution-fs: var(--fs-200);
+  --attribution-fs: var(--fs-100);
   --attribution-margin-top: 2rem;
 }
 @media (min-width: 90em) {
@@ -154,7 +154,7 @@
 @media (min-width: 48em) {
   :root {
     --header-hero-margin-top: 7.25rem;
-    --header-hero-height: 50rem;
+    --header-hero-height: 37.875rem;
     --header-hero-heading-fs: var(--fs-900);
     --header-hero-img-margin-top: 6rem;
   }
